@@ -1,0 +1,9 @@
+# Render deployment dependencies
+gradio
+torch
+librosa
+matplotlib
+numpy
+captum
+soundfile
+scipy

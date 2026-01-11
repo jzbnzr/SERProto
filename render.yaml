@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: crema-proto
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Proto1.py
+    envVars:
+      - key: USE_DATASET_DIRS
+        value: "false"
